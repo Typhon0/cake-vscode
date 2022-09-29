@@ -18,11 +18,11 @@ jobs:
       
       - uses: actions/setup-node@v3.4.1
       
-      - name: Prepublish
-        run: npm run vscode:prepublish
-      
       - name: npm install 
         run: npm install
+      
+      - name: Prepublish
+        run: npm run vscode:prepublish
       
       - name: Package extension
         run: npx vsce package --out vsix/
