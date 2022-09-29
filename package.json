@@ -649,6 +649,6 @@
     "vscode-test": "^1.6.1"
   },
   "extensionDependencies": [
-    "ms-dotnettools.csharp"
+    "muhammad-sammy.csharp"
   ]
 }
