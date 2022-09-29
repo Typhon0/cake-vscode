@@ -24,6 +24,9 @@ jobs:
       - name: Prepublish
         run: npm run vscode:prepublish
       
+      - name: Create vsix directory
+        run: mkdir vsix
+      
       - name: Package extension
         run: npx vsce package --out vsix/
         
