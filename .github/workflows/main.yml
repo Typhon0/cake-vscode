@@ -21,6 +21,9 @@ jobs:
       - name: Prepublish
         run: npm run vscode:prepublish
       
+      - name: npm install 
+        run: npm install
+      
       - name: Package extension
         run: npx vsce package --out vsix/
         
